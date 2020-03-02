@@ -1,0 +1,75 @@
+name: flutter_im
+description: im
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: "^0.1.3"
+  flutter_webview_plugin: "^0.3.10+1"
+  date_format: "^1.0.8"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # 加载页面图片资源
+  - images/loading.jpg
+
+    # 底部tab切换资源
+  - images/contact_list_normal.png
+  - images/contact_list_pressed.png
+  - images/profile_normal.png
+  - images/profile_pressed.png
+  - images/message_normal.png
+  - images/message_pressed.png
+
+    # 菜单按钮
+  # - images/icon_menu_addfriend.png
+  - images/icon_menu_group.png
+
+    # 好友模块按钮
+  - images/icon_addfriend.png
+  - images/icon_groupchat.png
+  - images/icon_public.png
+
+    # 我的模块按钮
+  - images/icon_me_friends.png
+  - images/icon_me_photo.png
+  - images/icon_me_file.png
+  - images/icon_me_service.png
+  - images/icon_me_message.png
+  - images/icon_me_clear.png
+  - images/code.png
+
+  - images/yixiu.jpeg
+  - images/daxiong.jpeg
+  - images/police-huahua.jpeg
+  - images/police-paopao.jpeg
+  - images/police-maomao.jpeg
+  - images/guaidaojide.jpeg
+  - images/bear-second.jpeg
+  - images/pikaqiu.jpeg
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
